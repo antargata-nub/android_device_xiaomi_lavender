@@ -110,3 +110,5 @@ PRODUCT_MODEL := Redmi Note 7 (AOSP)
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 
+#DolbyLunaris
+$(call inherit-product, vendor/lunaris/dolby/dolby.mk)
